@@ -1,0 +1,88 @@
+h1 {
+	color:white;
+	text-align: center;
+	font-family: tahoma;
+}
+p {
+	color:white;
+	text-align: left;
+	font-family: tahoma;
+}
+body {
+	background-color: tomato;
+	line-height:1.8em;
+	margin: o;
+}
+.container{
+	width:80%;
+	margin: auto;
+}
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px green solid;
+	border-left: 5px green solid;
+	border-bottom: 5px green solid;
+	border-top: 5px green solid;
+	border-bottom-style:solid;
+	border-bottom-width: 10px;
+	padding: 5px;
+	margin: 20px;
+}
+.box-2{
+	border: 2px green dotted;
+	padding: 5px;
+	
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover{
+	color: red;
+}
+a:activ{
+	color: green;
+
+}
+a:visited{
+	color: black;	
+}
+.categories{
+	border: 2px solid green;
+	border-spacing: 10px;
+	border-top: 10px;
+	padding: 5px;
+	border-radius: 8px;
+}
+.categories ul{
+	padding: 10px;
+}
+.categories h2{
+	text-align: center;
+}
+.myform{
+	padding: 20px;
+	}
+.myform label{
+	display: block;
+}	
+.myform input [type="text"], .myform textarea{
+	padding: 8px;
+	width: 100%;
+}
+.myform input [type="submit"]{
+	background-color:#333;
+	color:#fff;
+	padding: 10px 15px;
+	border: none;
+}
+.block{
+ float: left;
+ width: 33.3%;
+ border: 1px solid #333;
+ padding: 10px;
+ box-sizing:border-box;
+
+}
